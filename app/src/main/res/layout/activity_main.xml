@@ -1,0 +1,40 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="comjackfendley.httpsgithub.palindromechecker.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_user_input"
+        android:inputType="text"
+        android:hint="Enter a Word to Check"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_result"
+        android:layout_below="@+id/et_user_input"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:textSize="20sp"
+        android:textColor="#0000BB"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_error_message"
+        android:layout_below="@+id/et_user_input"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textColor="#BB0000"/>
+
+</RelativeLayout>
+
